@@ -5,5 +5,12 @@ void _formatTabel(int angka) {
   for (int i = 1; i <= 10; i++) {
     int total = angka * i; // menyimpan hasil perkalian ke variabel total
     String hasil = '$angka x $i = $total'; // membuat template teks dasar
+        // Tambahkan highlight untuk hasil yang genap (habis dibagi 2)
+    if (total % 2 == 0) {
+      // modulo mengecek sisa bagi, jika total dibagi 2 sisanya 0 maka genap
+      print('$hasil (genap)'); // menambah keterangan genap
+    } else {
+      print(hasil); // cetak biasa jika ganjil
+    }
   }
 }
