@@ -1,0 +1,5 @@
+This program is used to display a multiplication table for a specified number. The flow starts from the main() function, which fills in the value of the number variable, then calls the displayMultiplicationTable() function to process and display the multiplication results from 1 to 10.
+
+This program also implements branching. If the number is 5 or less, the multiplication results are displayed in a simple format. However, if it is greater than 5, the program will display the results in a clearer table format, while also providing additional information on even multiplication results.
+
+With the use of branching (if) and looping (for), this program shows how Dart can manage program flow and automatically repeat calculation processes to generate multiplication tables with different formats according to the given value conditions.
